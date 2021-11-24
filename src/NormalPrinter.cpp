@@ -5,7 +5,7 @@ namespace printer{
 
     Printer::Printer() {}
 
-    Printer::Printer(double colorInkPercentage = 50, double blackInkPercentage = 50, int capacityToPrintPerMinute = 12,bool scanner = false, double energyConsumedPerHour = 90.5, double colorTakePerPage = 0.5, double blackTakePerPage = 0.4) :
+    Printer::Printer(double colorInkPercentage = 50, double blackInkPercentage = 50, double capacityToPrintPerMinute = 12,bool scanner = false, double energyConsumedPerHour = 90.5, double colorTakePerPage = 0.5, double blackTakePerPage = 0.4) :
             colorInkPercentage(colorInkPercentage),
             blackInkPercentage(blackInkPercentage),
             capacityToPrintPerMinute(capacityToPrintPerMinute),
@@ -26,11 +26,14 @@ namespace printer{
             {}
 
     Printer &Printer::operator = (const Printer &simpl){
+            if(this == &simpl) return *this;
             this->colorInkPercentage = simpl.colorInkPercentage;
             this->blackInkPercentage = simpl.blackInkPercentage;
             this->capacityToPrintPerMinute = simpl.capacityToPrintPerMinute;
             this->scanner = simpl.scanner;
             this->energyConsumedPerHour = simpl.energyConsumedPerHour;
+            this->blackTakePerPage = simpl.blackTakePerPage;
+            this->colorTakePerPage = simpl.colorTakePerPage;
             return *this;
     }
 
@@ -43,7 +46,7 @@ namespace printer{
             else std::cout<< "false" << std::endl;
             std::cout << "Energy consumed per hour: "<< this->energyConsumedPerHour <<std::endl;
             std::cout << "Color ink take per page: "<< this->colorTakePerPage << "%" << std::endl;
-            std::cout << "Energy consumed per hour: "<< this->blackTakePerPage << "%" << std::endl;
+            std::cout << "Blak int take per page: "<< this->blackTakePerPage << "%" << std::endl;
     }
 
     void Printer::rechargeInk(){

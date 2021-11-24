@@ -10,13 +10,14 @@ namespace advance{
             ~Advance() = default;
             void printDetails();
             Advance(double colorInkPercentage, double blackInkPercentage, int capacityToPrintPerMinute,bool scanner, double energyConsumedPerHour , double colorTakePerPage , double blackTakePerPage, bool wirless);
+            Advance & operator=(const Advance&);
 
         protected:
             bool wirless = false;
-
+        
         private:
             Advance(const Advance&);
-            Advance & operator=(const Advance&);
+            
 
     };
 }

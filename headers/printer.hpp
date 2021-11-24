@@ -12,7 +12,7 @@ namespace printer{
             void rechargeInk();
             int calculateNoPagesToPrintWithColorInk();
             int calculateNoPagesToPrintWithBlackInk();
-            Printer(double colorInkPercentage, double blackInkPercentage, int capacityToPrintPerMinute,bool scanner, double energyConsumedPerHour , double colorTakePerPage , double blackTakePerPage);
+            Printer(double colorInkPercentage, double blackInkPercentage, double capacityToPrintPerMinute,bool scanner, double energyConsumedPerHour , double colorTakePerPage , double blackTakePerPage);
             Printer(const Printer&);
             Printer & operator=(const Printer&);
             

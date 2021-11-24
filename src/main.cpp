@@ -15,10 +15,23 @@ int main(){
     printer3.printDetails();
     std::cout << std::endl;
     advance::Advance advance(110,150,30,true,50.7,0.25,0.15,true);
-    advance::Advance advance2;
+    advance=advance;//self-assigmnet
+    std::cout<<"Self-assigment"<<std::endl;
     advance.printDetails();
     std::cout << std::endl;
+    advance::Advance advance2;
     advance2.printDetails();
     std::cout << std::endl;
+    advance2=advance;//without self-assigment
+    std::cout<<"Construct printer advance2 from printer advance using copy assigment operator."<<std::endl;
+    advance2.printDetails();
+    std::cout << std::endl;
+    printer::Printer printer4;
+    printer4=printer;
+    printer4.printDetails();
+    std::cout << std::endl;
+
+
+
     return 0;
 }
