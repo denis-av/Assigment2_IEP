@@ -10,7 +10,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 
 
-set(my_files src/NormalPrinter.cpp src/AdvancePrinter.cpp headers/printer.hpp headers/advancePrinter.hpp) 
+set(my_files src/NormalPrinter.cpp src/AdvancePrinter.cpp src/SuperPrinter.cpp headers/printer.hpp headers/advancePrinter.hpp headers/superPrinter.hpp) 
 
 
 add_library(lib STATIC ${my_files})

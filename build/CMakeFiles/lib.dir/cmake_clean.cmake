@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lib.dir/src/AdvancePrinter.cpp.o"
   "CMakeFiles/lib.dir/src/NormalPrinter.cpp.o"
+  "CMakeFiles/lib.dir/src/SuperPrinter.cpp.o"
   "liblib.a"
   "liblib.pdb"
 )

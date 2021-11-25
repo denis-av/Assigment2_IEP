@@ -8,3 +8,8 @@ CMakeFiles/lib.dir/src/AdvancePrinter.cpp.o: ../src/AdvancePrinter.cpp
 CMakeFiles/lib.dir/src/NormalPrinter.cpp.o: ../headers/printer.hpp
 CMakeFiles/lib.dir/src/NormalPrinter.cpp.o: ../src/NormalPrinter.cpp
 
+CMakeFiles/lib.dir/src/SuperPrinter.cpp.o: ../headers/advancePrinter.hpp
+CMakeFiles/lib.dir/src/SuperPrinter.cpp.o: ../headers/printer.hpp
+CMakeFiles/lib.dir/src/SuperPrinter.cpp.o: ../headers/superPrinter.hpp
+CMakeFiles/lib.dir/src/SuperPrinter.cpp.o: ../src/SuperPrinter.cpp
+

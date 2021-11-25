@@ -83,19 +83,34 @@ CMakeFiles/lib.dir/src/AdvancePrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/src/AdvancePrinter.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/denisubuntu/Desktop/IEP/Assigment2_IEP/src/AdvancePrinter.cpp -o CMakeFiles/lib.dir/src/AdvancePrinter.cpp.s
 
+CMakeFiles/lib.dir/src/SuperPrinter.cpp.o: CMakeFiles/lib.dir/flags.make
+CMakeFiles/lib.dir/src/SuperPrinter.cpp.o: ../src/SuperPrinter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denisubuntu/Desktop/IEP/Assigment2_IEP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lib.dir/src/SuperPrinter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/src/SuperPrinter.cpp.o -c /home/denisubuntu/Desktop/IEP/Assigment2_IEP/src/SuperPrinter.cpp
+
+CMakeFiles/lib.dir/src/SuperPrinter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/src/SuperPrinter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/denisubuntu/Desktop/IEP/Assigment2_IEP/src/SuperPrinter.cpp > CMakeFiles/lib.dir/src/SuperPrinter.cpp.i
+
+CMakeFiles/lib.dir/src/SuperPrinter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/src/SuperPrinter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/denisubuntu/Desktop/IEP/Assigment2_IEP/src/SuperPrinter.cpp -o CMakeFiles/lib.dir/src/SuperPrinter.cpp.s
+
 # Object files for target lib
 lib_OBJECTS = \
 "CMakeFiles/lib.dir/src/NormalPrinter.cpp.o" \
-"CMakeFiles/lib.dir/src/AdvancePrinter.cpp.o"
+"CMakeFiles/lib.dir/src/AdvancePrinter.cpp.o" \
+"CMakeFiles/lib.dir/src/SuperPrinter.cpp.o"
 
 # External object files for target lib
 lib_EXTERNAL_OBJECTS =
 
 liblib.a: CMakeFiles/lib.dir/src/NormalPrinter.cpp.o
 liblib.a: CMakeFiles/lib.dir/src/AdvancePrinter.cpp.o
+liblib.a: CMakeFiles/lib.dir/src/SuperPrinter.cpp.o
 liblib.a: CMakeFiles/lib.dir/build.make
 liblib.a: CMakeFiles/lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/denisubuntu/Desktop/IEP/Assigment2_IEP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/denisubuntu/Desktop/IEP/Assigment2_IEP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library liblib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lib.dir/link.txt --verbose=$(VERBOSE)
 

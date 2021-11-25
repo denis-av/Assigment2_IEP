@@ -1,6 +1,7 @@
 #include<iostream>
 #include "../headers/printer.hpp"
 #include "../headers/advancePrinter.hpp"
+#include "../headers/superPrinter.hpp"
 
 int main(){
     printer::Printer printer(70,35,12,false,100.5,0.5,0.4);
@@ -30,8 +31,10 @@ int main(){
     printer4=printer;
     printer4.printDetails();
     std::cout << std::endl;
-
-
-
+    super::Super super1;
+    super1.printDetails();
+    std::cout << std::endl;
+    super::Super super2;
+    //super2=super1; - error
     return 0;
 }

@@ -1,2 +1,2 @@
-/usr/bin/ar qc liblib.a  CMakeFiles/lib.dir/src/NormalPrinter.cpp.o CMakeFiles/lib.dir/src/AdvancePrinter.cpp.o
+/usr/bin/ar qc liblib.a  CMakeFiles/lib.dir/src/NormalPrinter.cpp.o CMakeFiles/lib.dir/src/AdvancePrinter.cpp.o CMakeFiles/lib.dir/src/SuperPrinter.cpp.o
 /usr/bin/ranlib liblib.a

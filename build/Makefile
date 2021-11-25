@@ -190,6 +190,33 @@ src/NormalPrinter.cpp.s:
 	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/NormalPrinter.cpp.s
 .PHONY : src/NormalPrinter.cpp.s
 
+src/SuperPrinter.o: src/SuperPrinter.cpp.o
+
+.PHONY : src/SuperPrinter.o
+
+# target to build an object file
+src/SuperPrinter.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/SuperPrinter.cpp.o
+.PHONY : src/SuperPrinter.cpp.o
+
+src/SuperPrinter.i: src/SuperPrinter.cpp.i
+
+.PHONY : src/SuperPrinter.i
+
+# target to preprocess a source file
+src/SuperPrinter.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/SuperPrinter.cpp.i
+.PHONY : src/SuperPrinter.cpp.i
+
+src/SuperPrinter.s: src/SuperPrinter.cpp.s
+
+.PHONY : src/SuperPrinter.s
+
+# target to generate assembly for a file
+src/SuperPrinter.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/SuperPrinter.cpp.s
+.PHONY : src/SuperPrinter.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -233,6 +260,9 @@ help:
 	@echo "... src/NormalPrinter.o"
 	@echo "... src/NormalPrinter.i"
 	@echo "... src/NormalPrinter.s"
+	@echo "... src/SuperPrinter.o"
+	@echo "... src/SuperPrinter.i"
+	@echo "... src/SuperPrinter.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

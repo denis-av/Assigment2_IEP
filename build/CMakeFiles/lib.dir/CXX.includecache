@@ -16,17 +16,23 @@ iostream
 iostream
 -
 
-/home/denisubuntu/Desktop/IEP/Assigment2_IEP/src/AdvancePrinter.cpp
-../headers/advancePrinter.hpp
+/home/denisubuntu/Desktop/IEP/Assigment2_IEP/headers/superPrinter.hpp
+./advancePrinter.hpp
 /home/denisubuntu/Desktop/IEP/Assigment2_IEP/headers/advancePrinter.hpp
-../headers/printer.hpp
-/home/denisubuntu/Desktop/IEP/Assigment2_IEP/headers/printer.hpp
 iostream
 -
 
 /home/denisubuntu/Desktop/IEP/Assigment2_IEP/src/NormalPrinter.cpp
 ../headers/printer.hpp
 /home/denisubuntu/Desktop/IEP/Assigment2_IEP/headers/printer.hpp
+iostream
+-
+
+/home/denisubuntu/Desktop/IEP/Assigment2_IEP/src/SuperPrinter.cpp
+../headers/advancePrinter.hpp
+/home/denisubuntu/Desktop/IEP/Assigment2_IEP/headers/advancePrinter.hpp
+../headers/superPrinter.hpp
+/home/denisubuntu/Desktop/IEP/Assigment2_IEP/headers/superPrinter.hpp
 iostream
 -
 
